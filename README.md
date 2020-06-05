@@ -1,13 +1,7 @@
-## My Project
 
-TODO: Fill this README out!
 
-Be sure to:
+# AWS modernization with Gremlin 
 
-* Change the title in this README
-* Edit your repository description on GitHub
+Learn how to modernize using chaos engineering with Gremlin
 
-## License
-
-This library is licensed under the MIT-0 License. See the LICENSE file.
 

@@ -4,7 +4,7 @@ chapter: true
 weight: 1
 ---
 
-# AWS Modernization Workshop with Epsagon
+# AWS Modernization Workshop with Gremlin
 
 ### Welcome
 
@@ -14,7 +14,7 @@ In this workshop you will learn why DevOps is a pattern for modernization and ho
 - Deploy Cloud9 as an IDE for completing workshop exercises.
 - How DevOps patterns help to release features and functionality faster.
 - Best practices for implementing 2 pizza team pipelines.
-- Setup your account for Epsagon
+- Setup your account for Gremlin
 
 {{% notice warning %}}
 <p style='text-align: left;'>

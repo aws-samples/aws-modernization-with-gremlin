@@ -1,5 +1,5 @@
 +++
-title = "Workshop Module 1: Setup"
+title = "Module 01"
 chapter = true
 weight = 22
 +++

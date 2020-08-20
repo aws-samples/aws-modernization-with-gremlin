@@ -1,13 +1,30 @@
 +++
-title = "Setup eksctl"
+title = "Create a cluster"
 chapter = true
 weight = 01
 +++
 
-# eksctl Setup
+# eksctl cluster creation 
 
-To complete the workshop, you first need to install eksctl. Instructions for doing this can be found at [eksctl.io](https://eksctl.io/introduction/#installation). eksctl (pronounced "eks control") is a simple CLI tool for creating clusters on EKS. It is written in Go, uses CloudFormation, was created by [Weaveworks](https://weave.works) and it welcomes contributions from the community. 
-
-{{% notice warning %}}
-If you are using your own AWS account, you will need permissions to create EKS clusters plus admin rights within your EKS cluster to configure configuration rules and install agents. Ensure you have authority within your organization to do this in your tenant. 
+{{% notice tip %}}
+If you are running this workshop in an AWS event, you can skip this step and move to the [deploy sockshop] (/22_workshop_1/20_deploy_sockshop.html) page
 {{% /notice %}}
+
+
+[eksctl](https://eksctl.io/introduction/) makes it simple to provision Kubernetes clusters in EKS. For this workshop, we will create a defauklt three node EKS cluster. With `eksctl`, this is a single command line:
+
+```
+eksctl create cluster --name sockshop-eks-cluster --version 1.15 --region us-west-2 --nodegroup-name standard-workers --node-type t3.medium --nodes 3 --nodes-min 1 --nodes-max 4
+```
+
+You will see a number of messages scroll, ending with the `kubeconfig` message
+
+<pre>
+[ℹ]  waiting for at least 1 node(s) to become ready in "standard-workers"
+[ℹ]  nodegroup "standard-workers" has 3 node(s)
+[ℹ]  node "ip-192-168-4-140.us-west-2.compute.internal" is not ready
+[ℹ]  node "ip-192-168-44-26.us-west-2.compute.internal" is not ready
+[ℹ]  node "ip-192-168-79-117.us-west-2.compute.internal" is ready
+[ℹ]  kubectl command should work with "/home/ec2-user/.kube/config", try 'kubectl get nodes'
+[✔]  EKS cluster "sockshop-eks-cluster" in "us-west-2" region is ready
+</pre>

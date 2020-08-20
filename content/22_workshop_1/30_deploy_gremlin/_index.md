@@ -1,7 +1,7 @@
 +++
 title = "Create Gremlin Account"
 chapter = true
-weight = 02
+weight = 03
 +++
 
 Today we will be using Gremlin as our Chaos Engineering Platform. 

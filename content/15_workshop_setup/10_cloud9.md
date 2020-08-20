@@ -20,7 +20,7 @@ weight: 10
 
 ![image](/images/c9-create.png)
 
-4 . For the name use `pulumi-workshop`
+4 . For the name use `gremlin-workshop`
 
 
 5 . Select Other instance type and choose t3.medium

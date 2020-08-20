@@ -1,7 +1,7 @@
 +++
 title = "Deploy the SockShop"
 chapter = false
-weight = 05
+weight = 02
 
 +++
 

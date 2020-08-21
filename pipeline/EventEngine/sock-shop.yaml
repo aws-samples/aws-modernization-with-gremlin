@@ -4,7 +4,6 @@ kind: Namespace
 metadata:
   name: sock-shop
 ---
-
 apiVersion: apps/v1
 kind: Deployment
 metadata:

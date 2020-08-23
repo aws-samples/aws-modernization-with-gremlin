@@ -251,22 +251,6 @@ spec:
       nodeSelector:
         beta.kubernetes.io/os: linux
 ---
-apiVersion: apps/v1
-kind: Service
-metadata:
-  name: front-end
-  labels:
-    name: front-end
-  namespace: sock-shop
-spec:
-  type: LoadBalancer
-  ports:
-  - port: 80
-    targetPort: 8079
-    nodePort: 30001
-  selector:
-    name: front-end
----
 apiVersion: v1
 kind: Service
 metadata:
@@ -275,7 +259,7 @@ metadata:
     name: front-end
   namespace: sock-shop
 spec:
-  type: NodePort
+  type: LoadBalancer
   ports:
   - port: 80
     targetPort: 8079

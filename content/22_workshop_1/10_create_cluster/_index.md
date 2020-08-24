@@ -6,10 +6,6 @@ weight = 01
 
 # eksctl cluster creation 
 
-{{% notice tip %}}
-If you are running this workshop in an AWS event, you can skip this step and move to the [deploy sockshop] (/22_workshop_1/20_deploy_sockshop.html) page
-{{% /notice %}}
-
 
 [eksctl](https://eksctl.io/introduction/) makes it simple to provision Kubernetes clusters in EKS. For this workshop, we will create a defauklt three node EKS cluster. With `eksctl`, this is a single command line:
 

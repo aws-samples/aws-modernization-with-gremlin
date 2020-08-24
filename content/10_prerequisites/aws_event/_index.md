@@ -30,4 +30,4 @@ Please select **US West (Oregon)** in the top right corner.
 
 ### Next step
 
-Once you have completed the step above, you can leave the AWS console open. You can now move to the [**Workshop Setup**](/15_workshop_setup.html) section.
+Once you have completed the step above, you can leave the AWS console open. You can now move to the [**First Module**](/22_workshop_1/25_test_sockshop.html) section.

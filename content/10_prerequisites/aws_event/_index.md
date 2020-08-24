@@ -22,9 +22,9 @@ This account will expire at the end of the workshop and the all the resources cr
 
 3 . Use a single region for the duration of this workshop. This workshop supports the following regions:
 
-* us-west-2 (US West - Oregon)
+* us-east-1 (US East - N.Virginia)
 
-Please select **US West (Oregon)** in the top right corner.
+Please select **US East (N.Virginia)** in the top right corner.
 
 ![Event Engine Region](/images/event-engine-region.png)
 

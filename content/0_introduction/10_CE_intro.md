@@ -4,6 +4,7 @@ chapter = false
 weight = 10
 +++
 
+#### Definition: 
 "Thoughtful, planned experiments designed to reveal weakness in our systems."
 
 But we can break this down a bit more.

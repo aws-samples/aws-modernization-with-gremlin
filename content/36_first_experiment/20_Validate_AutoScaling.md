@@ -16,7 +16,7 @@ TODO: Experiment Card
 You want to write down your Hypothesis and Abort Conditions before moving to the next step. 
 Your hypothesis should be based on what you expect to happen to your system as you unleash the chaos, and the abort conditions will cover the conditions that would cause you to halt the experiment. 
 
-We will start off by going to [Gremlin](app.gremlin.com), and configure a CPU attack on all of your hosts.
+We will start off by going to [Gremlin](https://app.gremlin.com), and configure a CPU attack on all of your hosts.
 
 Click on **"Attacks"** which can be found on the Left Navigation Bar followed by "New Attack". 
 

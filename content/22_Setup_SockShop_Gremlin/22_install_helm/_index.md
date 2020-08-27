@@ -1,7 +1,7 @@
 +++
 title = "Install helm"
 chapter = false
-weight = 13
+weight = 03
 
 +++
 

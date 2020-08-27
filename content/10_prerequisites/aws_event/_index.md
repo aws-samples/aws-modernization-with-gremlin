@@ -41,4 +41,4 @@ This account will expire at the end of the workshop and the all the resources cr
 
 ### Next step
 
-Once you have completed the step above, you can leave the AWS console open. You can now move to the [**First Module**](/22_workshop_1/25_test_sockshop.html) section.
+Once you have completed the step above, you can leave the AWS console open. You can now move to the [**First Module**](/22_setup_sockshop_gremlin/25_test_sockshop.html) section.

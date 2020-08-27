@@ -5,9 +5,12 @@ weight: 10
 ---
 
 
-To complete this workshop, you are provided with an AWS account via the AWS Event Engine service. A 12-digit hash will be provided to you by event staff - this is your unique access code. eg:
+To complete this workshop, you are provided with an AWS account via the AWS Event Engine service. A 12-digit hash will be provided to you by event staff - this is your unique access code. eg: `e8476543c00e`
 
-## `e8476543c00e`
+{{% notice warning %}}
+If you are currently logged in to an AWS Account, you can logout using this [link](https://console.aws.amazon.com/console/logout!doLogout) 
+{{% /notice %}} 
+
 
 ### Create AWS Account
 
@@ -15,8 +18,12 @@ To complete this workshop, you are provided with an AWS account via the AWS Even
 
 ![Event Engine](/images/event-engine-initial-screen.png)
 
+{{% notice tip %}}
+Leave the Event Engine tab open (A new tab will be used for the next step)
+{{% /notice %}}
+
 2 . Choose **AWS Console**, then **Open AWS Console**.
-This account will expire at the end of the workshop and the all the resources created will be automatically deprovisioned. You will not be able to access this account after today.
+
 
 ![Event Engine Dashboard](/images/event-engine-dashboard.png)
 
@@ -27,6 +34,10 @@ This account will expire at the end of the workshop and the all the resources cr
 Please select **US East (N.Virginia)** in the top right corner.
 
 ![Event Engine Region](/images/event-engine-region.png)
+
+{{% notice warning %}}
+This account will expire at the end of the workshop and the all the resources created will be automatically deprovision-ed. You will not be able to access this account after today.
+{{% /notice %}}
 
 ### Next step
 

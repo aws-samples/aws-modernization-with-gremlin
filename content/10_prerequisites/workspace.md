@@ -26,11 +26,11 @@ Cloud9 requires third-party-cookies. You can whitelist the [specific domains]( h
 Create a Cloud9 Environment: [https://us-west-2.console.aws.amazon.com/cloud9/home?region=us-west-2](https://us-west-2.console.aws.amazon.com/cloud9/home?region=us-west-2)
 
 {{% notice warning %}}
-Make sure you are naming your Cloud9 environment `Pulumi-Workshop`, otherwise things will break later.
+Make sure you are naming your Cloud9 environment `Gremlin-Workshop`, otherwise things will break later.
 {{% /notice %}}
 
 - Select **Create environment**
-- Name it **Pulumi-Workshop**, and take all other defaults
+- Name it **Gremlin-Workshop**, and take all other defaults
 - When it comes up, customize the environment by closing the **welcome tab**
 and **lower work area**, and opening a new **terminal** tab in the main work area:
 ![c9before](/images/c9before.png)

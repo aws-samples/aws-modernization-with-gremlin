@@ -15,12 +15,13 @@ kubectl get svc -o wide -n sock-shop | grep LoadBalancer
 ```
 
 
-If you are running this in an AWS event, log in to your bastion host EC2 instance:
+If you are running this in an AWS event, visit the [EC2 Console](https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#Home:) and log in to your bastion host EC2 instance. The name of your bastion host will end in **-bastion.** (Example: **mod-f679f4081e7d405c-bastion**). 
+
 
 
 ![Bastion-Connect](/images/bastion-connect.png)
 
-Select EC2 Instance Connect (browser-based SSH connection) and click connect.
+Locate you bastion host and find the gray button that says "Connect". Then select **EC2 Instance Connect** (browser-based SSH connection) and click **"Connect"**. A new browser window will open. 
 
 ![Bastion-ec2](/images/bastion-ec2.png)
 

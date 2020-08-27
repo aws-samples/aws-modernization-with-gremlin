@@ -1,7 +1,7 @@
 +++
-title = "Part 2: Your First Experiment"
+title = "Part 3: Your Next Experiment"
 chapter = true
-weight = 36
+weight = 42
 +++
 
 # Getting Started

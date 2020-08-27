@@ -5,8 +5,8 @@ weight = 03
 +++
 
 Today we will be using Gremlin as our Chaos Engineering Platform. 
-In an earlier step we installed `helm`. We will be using `helm` to Install Gremlin.
+![image](/images/gremlin_mascot.png)
 
-First, Let's start by creating our Gremlin Free Account. Head over to gremlin.com/free and sign up for a free account. After filling out the form you will receive an email to finalize your registration. 
++ If you are running this workshop on your own, in an earlier step we installed `helm`, we will be using `helm` to Install Gremlin.
 
-Create your username, password and Company. 
++ If you are running this via an AWS Event, `helm` has already been installed for you. 

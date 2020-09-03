@@ -1,5 +1,5 @@
 +++
-title = "Deploy Gremlin"
+title = "1.6 Deploy Gremlin"
 chapter = true
 weight = 07
 +++

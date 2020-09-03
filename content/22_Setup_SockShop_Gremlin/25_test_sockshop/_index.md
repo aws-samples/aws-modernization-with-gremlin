@@ -1,7 +1,7 @@
 +++
-title = "Test your sock shop"
+title = "1.3 Test your sock shop"
 chapter = true
-weight = 25
+weight = 22
 +++
 
 # Test Your Sock Shop

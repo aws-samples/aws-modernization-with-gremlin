@@ -1,5 +1,5 @@
 +++
-title = "Observe Experiments"
+title = "2.4 Observe Experiments"
 chapter = true
 weight = 30
 +++

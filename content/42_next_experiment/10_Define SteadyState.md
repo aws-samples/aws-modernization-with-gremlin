@@ -1,5 +1,5 @@
 +++
-title = "Define Steady State"
+title = "3.1 Define Steady State"
 chapter = true
 weight = 10
 +++

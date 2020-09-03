@@ -1,5 +1,5 @@
 +++
-title = "Validate Auto-Scaling"
+title = "2.3 Validate Auto-Scaling"
 chapter = true
 weight = 20
 +++

@@ -1,5 +1,5 @@
 +++
-title = "Validate Critical Path"
+title = "3.2 Validate Critical Path"
 chapter = true
 weight = 20
 +++

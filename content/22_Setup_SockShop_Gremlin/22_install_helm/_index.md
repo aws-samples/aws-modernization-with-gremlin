@@ -1,7 +1,7 @@
 +++
-title = "Install helm"
+title = "1.4 Install helm"
 chapter = false
-weight = 22
+weight = 25
 
 +++
 

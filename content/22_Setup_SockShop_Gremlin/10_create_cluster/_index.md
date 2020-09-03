@@ -1,5 +1,5 @@
 +++
-title = "Create a cluster"
+title = "1.1 Create a cluster"
 chapter = true
 weight = 01
 +++

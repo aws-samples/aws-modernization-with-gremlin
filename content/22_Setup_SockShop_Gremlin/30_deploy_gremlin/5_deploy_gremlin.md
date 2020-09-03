@@ -25,7 +25,7 @@ kubectl create namespace gremlin
 
 Next, you will run the `helm` command to install the Gremlin client. In this command there are three placeholder variables that you will need to replace with real data. Replace `$GREMLIN_TEAM_ID` with your Team ID, and replace `$GREMLIN_TEAM_SECRET` with your Secret Key as well. You also want to replace `$GREMLIN_CLUSTER_ID` with a name for the cluster.
 ```
-helm install gremlin/gremlin \
+    helm install gremlin gremlin/gremlin 
     --namespace gremlin \
     --set gremlin.secret.managed=true \
     --set gremlin.secret.type=secret \
@@ -33,10 +33,12 @@ helm install gremlin/gremlin \
     --set gremlin.secret.clusterID=$GREMLIN_CLUSTER_ID \
     --set gremlin.secret.teamSecret=$GREMLIN_TEAM_SECRET
 ```
-Let's fo back to the Gremlin UI to find our `$GREMLIN_TEAM_ID` and `$GREMLIN_TEAM_SECRET`. 
+Let's go back to the Gremlin UI to find our `$GREMLIN_TEAM_ID` and `$GREMLIN_TEAM_SECRET`. 
 
 ![Gremlin Navigation to Configuration](/images/gremlin/gremlin_config.png)
 
 Go ahead and copy your **Team ID**, and press **“Reset”** in **Secret Key.** Make sure to copy the Key. 
 
 Congrats! 🎉 You've deployed Gremlin to your cluster. Head over to https://app.gremlin.com/clients/infrastructure to verify your installation on the Gremlin UI. 
+
+![Gremlin Clients View](/images/gremlin/gremlin_ui_clients.png)

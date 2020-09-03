@@ -31,6 +31,6 @@ Under **“Choose a Gremlin”**, select **"Resource"** followed by **"CPU"** to
 
 
 
-Then, click "Unleash Gremlin"
+Then, click **"Unleash Gremlin"**
 
 Congrats, you unleashed your first attack! In the next page, we will talk about observing our experiments. 

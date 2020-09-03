@@ -1,10 +1,14 @@
 ---
-title: "Viewing our collected metrics"
+title: "Baseline Metrics"
 chapter: false
-weight: 25
+weight: 15
 ---
 
-Now let's navigate back to CloudWatch Container Insights browser tab to view the data we've generated.
+### Baseline Metrics
+
+As we go through this workshop you want to always compare your experiment results to the this steady state of your application. 
+
+Let's navigate to [Container Insights](https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#container-insights:infrastructure/map) browser tab to view the date and metrics we've generated.
 
 From here you can choose a number of different views. We’re going to narrow down our timelines to a custom time range of just 30 minute so we can zoom into our recently collected insights.
 

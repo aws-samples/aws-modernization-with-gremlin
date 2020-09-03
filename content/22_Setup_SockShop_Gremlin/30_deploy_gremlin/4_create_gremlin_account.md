@@ -16,6 +16,10 @@ After your account has been created you will see the Onboarding Flow of Gremlin,
 ![Gremlin Onboarding1](/images/gremlin_onboarding1.png)
 ![Gremlin Onboarding2](/images/gremlin_onboarding2.png)
 
+{{% notice tip %}}
+When creating a company, remember to think of something Unique because it's possible that it might be taken already
+{{% /notice%}}
+
 After you've finished your account creation process, you can head over to [clients](https://app.gremlin.com/clients/infrastructure) and you will see two Gremlin provided hosts to start experimenting on. For this workshop, we won't be using those hosts so feel free to ignore.  
 ![Gremlin Onboarding2](/images/gremlin_clients.png)
 

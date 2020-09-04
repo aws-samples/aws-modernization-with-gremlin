@@ -29,8 +29,6 @@ Under **“Choose a Gremlin”**, select **"Resource"** followed by **"CPU"** to
 
 ![Gremlin UI CPU Attack](/images/gremlin/gremlin_ui_cpu_attack.png)
 
-
-
 Then, click **"Unleash Gremlin"**
 
-Congrats, you unleashed your first attack! In the next page, we will talk about observing our experiments. 
+Congrats, you unleashed your first attack! In the next page, we will talk about observing the experiments we just unleashed. 

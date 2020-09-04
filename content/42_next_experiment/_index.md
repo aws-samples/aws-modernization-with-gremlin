@@ -5,9 +5,9 @@ weight = 42
 +++
 
 # Getting Started
-Let's get started on your next experiment! This experiment will be focused around Dependency outage. What happens to your application when a critical application has issues? 
+Let's get started on your next experiment! This experiment will be focused around Dependency outage. What happens to your application when a critical dependency has issues? 
 
-Your critical path is the applications needed to keep your business running, you can easily think about it as [`“What makes you money?`](https://charity.wtf/2020/07/24/questionable-advice-whats-the-critical-path/)
+Your critical path is the applications needed to keep your business running, you can easily think about it as ["What makes you money?"](https://charity.wtf/2020/07/24/questionable-advice-whats-the-critical-path/)
 
 {{% notice tip %}}
 TODO: Architecture Diagram

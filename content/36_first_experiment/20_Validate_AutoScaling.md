@@ -7,7 +7,7 @@ weight = 20
 # Unleash Experiment
 This first scenario that we’ll run is to help tune autoscaling. Autoscaling in AWS is easy to accomplish, but hard to master due to it being a means to scale infrastructure relative to traffic demands.
 
-We talked about following the scientific method when doing chaos engineering experiemnt, the card below helps you think about it. 
+We talked about following the scientific method when doing chaos engineering experiment, the card below helps you think about it. 
 
 ![Experiment Card](/images/Experiment_Card.jpg)
 

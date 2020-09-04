@@ -1,5 +1,5 @@
 +++
-title = "2.5.1 Setup Auto Scaling"
+title = "2.5.1 Auto Scaling"
 chapter = true
 weight = 01
 +++

@@ -1,7 +1,7 @@
 +++
 title = "2.5 Action Items"
 chapter = true
-weight = 00
+weight = 50
 +++
 
 # Experiment Action Items

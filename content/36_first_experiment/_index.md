@@ -7,4 +7,4 @@ weight = 36
 # Getting Started
 Your infrastructure and tooling should be ready. Let's get started on our first experiment! 
 
-{{% children showhidden="false" %}}
+{{% children showhidden="true" %}}

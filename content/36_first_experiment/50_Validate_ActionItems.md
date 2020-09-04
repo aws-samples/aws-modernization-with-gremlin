@@ -19,7 +19,7 @@ Under **"What do you want to attack?"**,  you want to select **Hosts**, followed
 
 ![Gremlin UI Select Hosts](/images/gremlin/gremlin_ui_select_hosts.png)
 
-Under **“Choose a Gremlin”**, select **"Resource"** followed by **"CPU"** to consume all CPU on your targets:
+Under **“Choose a Gremlin”**, select **"Resource"** followed by **"CPU"** to consume CPU on your targets:  For the configuration, change **Length** to 360 seconds, change **CPU Capacity** to `**80**`
 
 
 ![Gremlin UI CPU Attack](/images/gremlin/gremlin_ui_cpu_attack.png)

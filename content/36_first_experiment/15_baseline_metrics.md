@@ -1,10 +1,10 @@
----
-title: "2.2 Baseline Metrics"
-chapter: false
-weight: 15
----
++++
+title = "2.2 Baseline Metrics"
+chapter = true
+weight =  15
++++
 
-### Baseline Metrics
+# 2.2 Baseline Metrics
 
 As we go through this workshop you want to always compare your experiment results to the steady state of your application. 
 

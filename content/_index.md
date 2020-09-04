@@ -10,7 +10,8 @@ weight: 1
 
 ### Welcome
 
-In this workshop, you will get a hands-on introduction to Chaos Engineering by assuming the role of Mystical Mysfit’s newest site reliability engineer. As Mystical Mysfit’s sole SRE, you’ll be responsible for keeping container-based microservices architecture up and running during Mystical Mysfit’s busiest “two days” of the year.
+In this workshop, you will get a hands-on introduction to Chaos Engineering by assuming the role of Mystical Mysfit’s newest site reliability engineer. Mythical Mysfits is a fictitious company that started off with their famous “Hello world” product and evolved into being a world leader in the unicorn socks rental market.
+As Mystical Mysfit’s sole SRE, you’ll be responsible for keeping container-based microservices architecture up and running during Mystical Mysfit’s busiest “two days” of the year.
 
 On “day one,” you’ll start by setting up the infrastructure for the online store. You’ll then be tasked with creating dashboards and alerts to track the health of the system as the first orders start rolling in.
 

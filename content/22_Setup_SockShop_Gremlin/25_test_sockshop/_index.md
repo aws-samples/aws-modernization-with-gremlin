@@ -52,15 +52,16 @@ Also keep the sock shop browser tab open for the rest of today's activities.
 
 ![AWS - EC2 - Old Experience ](/images/aws_ec2_connect_1.png)
 
-**If you are running this in an AWS event,** visit the [EC2 Console](https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#Home:) and log in to your bastion host EC2 instance. The name of your bastion host will end in **-bastion.** (Example: **mod-f679f4081e7d405c-bastion**). 
+**If you are running this in an AWS event,** visit the [EC2 Console](https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#Home:) and log in to your bastion host EC2 instance. The name of your bastion host will end in **-bastion.** (Example: **mod-f679f4081e7d405c-bastion**). Locate your bastion host and press **"Connect"**, a pop up screen will display as seen below:
 
 ![AWS - EC2 - Old Experience ](/images/aws_ec2_connect_2.png)
 
-Locate your bastion host and press **"Connect"**, in the pop up select **EC2 Instance Connect**. A new browser window will open. 
+In the pop up select **EC2 Instance Connect** and a new browser window will open. 
 
 {{% notice tip %}}
-Keep the console browser window open for the rest of today's activities. 
+Keep this browser window open for the rest of today's activities. 
 {{% /notice %}}
+
 Run the following command in the console window to grab the load balancer IP:
 
 ```

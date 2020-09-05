@@ -19,7 +19,7 @@ Each Cluster gets its own Auto Scaling Group. Go ahead and check off the one you
 
 For **"Policy type"** select **"Simple scaling"**
 
-For Scaling Policy name, feel free to call it `ScaleUp`.
+For Scaling Policy name, feel free to call it **`ScaleUp`**.
 
 ![AWS Auto Scaling groups](/images/aws_create_scaling_policy_prework.png) 
 

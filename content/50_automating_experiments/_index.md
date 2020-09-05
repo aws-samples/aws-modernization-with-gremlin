@@ -4,7 +4,8 @@ chapter = true
 weight = 50
 +++
 
-# What is Chaos Engineering Automation
+# Part 4: Automating Chaos Engineering
+## What is Chaos Engineering Automation
 **Chaos Engineering Automation** is the practice of implementing Chaos Engineering Experiments in a **continuous** way to prevent **regression into past failures.**
 
 ## Why Automate?
@@ -14,11 +15,13 @@ Automation of experiments reinforces that your applications  won’t be vulnerab
 One wants to automate experiments in pre-prod environments before automating experiments in production. 
 
 Gremlin allows for one to implement automation various ways:
-+ Status Checks
+
 + Scheduling 
 + API Calls 
 + SDK Implementations 
++ Status Checks
 + CI/CD
+
 
 
 {{% children showhidden="false" %}}

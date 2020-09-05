@@ -31,7 +31,7 @@ After you've typed both tags, go ahead and select both services it should look l
 
 You can see that the blast radius for this experiment is small and only 2 containers. 
 
-Under **“Choose a Gremlin”**, select **"Network"** followed by **"Blachole"**. 
+Under **“Choose a Gremlin”**, select **"Network"** followed by **"Blackhole"**. 
 ![Gremlin UI Blackhole Attack](/images/gremlin_ui_network_blackhole.png) 
 
 For the configuration, change **Length** to **`360`** seconds and leave everything as it is. 

@@ -6,7 +6,7 @@ weight = 60
 
 # Convincing Your Boss
 
-No, it's time to get leadership buy in! First, let's take a look at What does Chaos Engineering Maturity look like. 
+Now, it's time to get leadership buy in! First, let's take a look at What does Chaos Engineering Maturity look like. 
 
 
 >The end goal is automated Chaos Engineering Experiments ran across **all** environments for all critical services **continuously**. 

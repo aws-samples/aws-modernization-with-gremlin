@@ -37,3 +37,6 @@ I want this to run in between working hours of **`09:00` and `15:00`**.
 Go ahead and press the **Unleash Gremlin** button to schedule it. 
 
 ![Gremlin UI schedule attack](/images/gremlin_ui_schedule_attack.png) 
+
+We can see all of our scheduled attacks via **"Schedules"** on the Gremlin UI
+![Gremlin UI scheduled attacks](/images/gremlin_ui_schedules.png) 

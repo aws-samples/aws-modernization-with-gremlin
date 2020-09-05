@@ -26,3 +26,5 @@ We can see on the Gremlin UI that the API attack is running.
 
 ![Gremlin UI - Gremlin API - Attack Pending](/images/gremlin_ui_api_attack_unleashed.png) 
 You can read more about Gremlin's API via our [Docs](https://www.gremlin.com/docs/api-reference/overview/) and you can also use our [interactive Swagger documentation](https://app.gremlin.com/api) when you are logged in. 
+
+You can leverage Gremlin's API your CI/CD pipelines or other tooling. 

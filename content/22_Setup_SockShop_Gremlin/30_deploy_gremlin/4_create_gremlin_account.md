@@ -10,15 +10,20 @@ If you are a existing user [Login in here](https://app.gremlin.com/login)
 
 ## Create Gremlin Account
 If you do not already have a Gremlin account [Register here](https://gremlin.com/aws-2020)
+
+{{% notice tip %}}
+When creating a company, remember to think of a Unique Company name because it's possible that it might be taken already. 
+{{% /notice%}}
+
 After you've filled it out, you will receive an email with a link to complete your registration. Go ahead and fill it out, it will look like this:
+
 ![Gremlin Account](/images/gremlin_account_creation.png)
+
 After your account has been created you will see the Onboarding Flow of Gremlin, feel free to fill out or skip ahead on the next two screens. 
 ![Gremlin Onboarding1](/images/gremlin_onboarding1.png)
 ![Gremlin Onboarding2](/images/gremlin_onboarding2.png)
 
-{{% notice tip %}}
-When creating a company, remember to think of something Unique because it's possible that it might be taken already
-{{% /notice%}}
+
 
 After you've finished your account creation process, you can head over to [clients](https://app.gremlin.com/clients/infrastructure) and you will see two Gremlin provided hosts to start experimenting on. For this workshop, we won't be using those hosts so feel free to ignore.  
 ![Gremlin Onboarding2](/images/gremlin_clients.png)

@@ -18,14 +18,15 @@ We will go back to our terminal and start by adding the repo for the Gremlin Hel
 helm repo add gremlin https://helm.gremlin.com
 
 ```
-Create a namespace for the Gremlin Kubernetes client:
+
+**If you are running this workshop on your own**, create a namespace for the Gremlin Kubernetes client:
 ```
 kubectl create namespace gremlin
 ```
 
 Next, you will run the `helm` command to install the Gremlin client. In this command there are three placeholder variables that you will need to replace with real data. Replace `$GREMLIN_TEAM_ID` with your Team ID, and replace `$GREMLIN_TEAM_SECRET` with your Secret Key as well. You also want to replace `$GREMLIN_CLUSTER_ID` with a name for the cluster.
 ```
-    helm install gremlin gremlin/gremlin 
+    helm install gremlin gremlin/gremlin \
     --namespace gremlin \
     --set gremlin.secret.managed=true \
     --set gremlin.secret.type=secret \

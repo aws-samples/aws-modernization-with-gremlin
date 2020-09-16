@@ -6,7 +6,7 @@ weight = 22
 
 # Test Your Sock Shop
 
-In order to test that our sock-shop has been deployed, we are going to grab the load balancer IP and test it in our own browser. Look for the steps for your corresponding setup:
+In order to test that our sock-shop has been deployed, we are going to grab the load balancer DNS name and test it in our own browser. Look for the steps for your corresponding setup:
 
 - [New EC2 Experience](#if-you-are-using-the-new-ec2-experience-follow-this)
 - [Older EC2 Experience](#if-you-are-using-the-older-ec2-experience-follow-this) 
@@ -36,7 +36,7 @@ Run the following command in the console window to grab the load balancer IP:
 kubectl get svc -o wide -n sock-shop | grep LoadBalancer
 ```
 
-Copy the load balancer IP from the terminal and paste it. 
+Copy the load balancer DNS name from the terminal and paste it. 
 
 ![Bastion-lb](/images/LB-IP.png)
 
@@ -68,7 +68,7 @@ Run the following command in the console window to grab the load balancer IP:
 kubectl get svc -o wide -n sock-shop | grep LoadBalancer
 ```
 
-Copy the load balancer IP from the terminal and paste it. 
+Copy the load balancer DNS name from the terminal and paste it. 
 
 ![Bastion-lb](/images/LB-IP.png)
 
@@ -81,7 +81,7 @@ Also keep the sock shop browser tab open for the rest of today's activities.
 {{% /notice %}}
 
 #### If you are running this workshop on your own, follow this: 
-Run the following command in your cloud9 terminal in order to grab the load balancer IP:
+Run the following command in your cloud9 terminal in order to grab the load balancer DNS name:
 
 ```
 kubectl get svc -o wide -n sock-shop | grep LoadBalancer

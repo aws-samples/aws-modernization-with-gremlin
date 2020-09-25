@@ -24,7 +24,7 @@ We can see on the architecture diagram how all these services talk to each other
 Let's go ahead and explore our Sock Shop application. 
 Some things to try out:
 
-+ Register and log in
++ Register and log in using the below credentials (These are very secure so please don't share them)
     - **Username:** `user`	
     - **Password:** `password`
 + View various items

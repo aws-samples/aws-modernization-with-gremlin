@@ -7,7 +7,7 @@ weight = 02
 # 2.5.2 CloudWatch Alarms
 ## Set up Auto Scaling: Configure Cloudwatch
 
-We need to find the metric we want to alarm for first. Select **"Select Metric"**, **"Container Insights"**, followed by **"ClusterName, InstanceId, NodeName"**.  Locate `node_cpu_utilization` and press **"Select Metric".**  
+We need to find the metric we want to alarm for first. Select **"Select Metric"**, **"Container Insights"**, followed by **"ClusterName, InstanceId, NodeName"**.  Locate `node_cpu_utilization` on any of the EC2 instances and press **"Select Metric".**  
 
 ![Container Insights Results](/images/aws_select_cpu_utilization.png)
 

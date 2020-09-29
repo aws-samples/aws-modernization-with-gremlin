@@ -40,7 +40,8 @@ Go ahead and press **"Next"**.
 
 > **When CPU is less than or equal to 30%, the alarm will be triggered.**
 
-![AWS Create scaling policy](/images/aws_create_scaling_policy_down.png)
+
+![Threshold 30](/images/aws_conditions_30.png)
 
 We now need to configure the actions that happen when the alarm gets triggered. 
 
@@ -51,4 +52,4 @@ For **"Alarm state trigger"** leave it as **"In alarm"**. Under that, we want to
 
 Switch back to the "Create scaling policy" tab we were in earlier, and press the refresh icon to locate the `ScaleDown-Alarm` CloudWatch alarm we just created. Under "Take the Action" Choose to **"Set to" "3" "capacity unit"**. Lastly, for **"seconds before allowing another scaling activity"**, make it **`600`** and press **"Create"**
 
-![Threshold 30](/images/aws_conditions_30.png)
+![AWS Create scaling policy](/images/aws_create_scaling_policy_down.png)

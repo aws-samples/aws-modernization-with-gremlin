@@ -6,7 +6,7 @@ weight = 07
 
 # Gremlin Deploy
 
-After you have logged in, click the **Avatar** Icon on the top right, and click **“Team Settings"**:
+Let's find your credentials, click the **Avatar** Icon on the top right, and click **“Team Settings"**:
 
 ![Gremlin Navigation to Team Settings](/images/gremlin/gremlin_people_team.png)
 

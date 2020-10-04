@@ -19,14 +19,13 @@ After you've filled it out, you will receive an email with a link to complete yo
 
 ![Gremlin Account](/images/gremlin_account_creation.png)
 
-After your account has been created you will see the Onboarding Flow of Gremlin, feel free to fill out or skip ahead on the next two screens. 
+After your account has been created you will see the Onboarding Flow of Gremlin, feel free to fill out or skip ahead on the next three screens. 
 ![Gremlin Onboarding1](/images/gremlin_onboarding1.png)
 ![Gremlin Onboarding2](/images/gremlin_onboarding2.png)
 
 
 
-After you've finished your account creation process, you can head over to [clients](https://app.gremlin.com/clients/infrastructure) and you will see two Gremlin provided hosts to start experimenting on. For this workshop, we won't be using those hosts so feel free to ignore.  
-![Gremlin Onboarding2](/images/gremlin_clients.png)
+After you've finished your account creation process, let's get it deployed!
 
 
 

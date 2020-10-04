@@ -14,6 +14,9 @@ We talked about following the scientific method when doing chaos engineering exp
 
 You want to write down your **Hypothesis** and **Abort Conditions** before moving to the next step. Your **hypothesis** should be based on what you expect to happen to your system as you unleash the chaos, and the **abort conditions** will cover the conditions that would cause you to halt the experiment. 
 
+Here is an example of my experiment card: 
+![Experiment Card Example](/images/Experiment_Card_Example.jpg)
+
 ## Unleash Experiment
 We will start off by going back to [Gremlin](https://app.gremlin.com) to configure a CPU attack on all of our hosts.
 

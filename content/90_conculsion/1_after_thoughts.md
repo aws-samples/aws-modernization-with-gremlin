@@ -25,7 +25,7 @@ We hope you have seen some of the wins your organization can have while implemen
 ### Next Steps
 If you are in interested in continuing your learning: 
 
-+ Join the Chaos Engineering Community on Slack. There are over 5,500 engineers from all levels. Some are are just getting started in implemnting DevOps and some have been running Chaos Engienering in production a few years. Join [here](https://www.gremlin.com/slack/).
++ Join the Chaos Engineering Community on Slack. There are over 5,500 engineers from all levels. Some are are just getting started in implementing DevOps and some have been running Chaos Engineering in production a few years. Join [here](https://www.gremlin.com/slack/).
 + Go to a [Chaos Engineering Bootcamp](https://www.gremlin.com/bootcamps/)
 + Join the largest Chaos Engineering Conference! Virtually ran October 05-08, 2020. [Learn more and Register](http://chaosconf.io/)
 

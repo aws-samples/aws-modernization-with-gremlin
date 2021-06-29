@@ -4,7 +4,7 @@ chapter: true
 weight: 1
 ---
 
-# Chaos Enginneering with Gremlin
+# Chaos Engineering with Gremlin
 
 ![image](/images/gremlin_mascot.png)
 

@@ -5,7 +5,7 @@ draft: false
 weight: 50
 ---
 ![image](/images/gremlin_mascot.png)
-We have seen many Gremlin Customers be successfull in their Chaos Engineering adoption.
+We have seen many Gremlin Customers be successful in their Chaos Engineering adoption.
 
 
 + [Backcountry](https://www.gremlin.com/customers/backcountry/)

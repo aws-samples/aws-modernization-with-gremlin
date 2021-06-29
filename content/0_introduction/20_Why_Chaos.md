@@ -16,4 +16,4 @@ The cost of downtime is very expensive, the average company loses $300,000/hour 
 Give your team a chance to build their muscle memory. Run planned Chaos Engineering experiments to train your engineers on how to be on call and respond to incidents. 
 
 #### Prepare for moments that matter
-By working on the three points above your team will feel more confident everyday as they build their respective applications and systems. Less time will be spent fire fighthing and  more time building and creating value. 
+By working on the three points above your team will feel more confident everyday as they build their respective applications and systems. Less time will be spent fire fighting and  more time building and creating value. 

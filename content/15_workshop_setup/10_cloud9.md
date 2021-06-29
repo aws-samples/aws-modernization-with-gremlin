@@ -8,7 +8,7 @@ weight: 10
 
 ### Add a new Cloud9 IDE environment
 
-1 . Within the AWS console, use the region drop list to select **us-west-2 (Oregon)**.  We are doing this because the workshop script will provsion the resources in this same region.
+1 . Within the AWS console, use the region drop list to select **us-west-2 (Oregon)**.  We are doing this because the workshop script will provision the resources in this same region.
 
 ![image](/images/aws-pick-region.png)
 

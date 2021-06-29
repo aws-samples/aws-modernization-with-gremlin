@@ -7,7 +7,7 @@ weight = 01
 # eksctl cluster creation 
 
 
-[eksctl](https://eksctl.io/introduction/) makes it simple to provision Kubernetes clusters in EKS. For this workshop, we will create a defauklt three node EKS cluster. With `eksctl`, this is a single command line:
+[eksctl](https://eksctl.io/introduction/) makes it simple to provision Kubernetes clusters in EKS. For this workshop, we will create a default three node EKS cluster. With `eksctl`, this is a single command line:
 
 ```
 eksctl create cluster --name sockshop-eks-cluster --version 1.15 --region us-west-2 --nodegroup-name standard-workers --node-type t3.medium --nodes 3 --nodes-min 1 --nodes-max 4

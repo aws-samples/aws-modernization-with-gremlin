@@ -1,27 +1,23 @@
 +++
-title = "2.5.4 AutoScaling Down Setup"
+title = "6.5.4 Set Up Auto Scaling Down"
 chapter = true
 weight = 04
 +++
 
-# 2.5.4 AutoScaling Down Setup
-## Set up Auto Scaling Down: 
+# Set Up Auto Scaling Down
 
-We want to follow the same steps as earlier, but instead add a new policy that will be called **`ScaleDown`**, and we we will be creating a new alarm for it. 
+Our Auto Scaling Policy automatically increases capacity, but we want to make sure we can scale down too. Otherwise, our cluster could continue to scale, resulting in wasted capacity.
 
-> This Alarm will be for when CPU utilization is less than or equal to (<=) 30% within a 1 minute.
+We want to follow the same steps as earlier, but instead add a new policy that will be called `ScaleDown`, and we we will be creating a new alarm for it. Instead of triggering when CPU capacity exceeds a certain amount, this alarm will trigger when CPU utilization drops to 30% or below within one minute.
 
-We can see the **"ScaleUp"** Poly and now we are going to press **"Add policy"** to set up our auto scaling down policy. 
+From our Auto Scaling groups page, click **Add policy** to start creating the new policy.
 ![Container Insights Results](/images/aws_create_down_policy.png)
 
-In the next page Select **Automatic scaling**, followed by **Add Policy.**
+In the next page Select **Automatic scaling**, followed by **Add Policy**. For **Policy type** select **Simple scaling**. Enter a name for the policy, such as **ScaleDown**. Then, click **Create a CloudWatch alarm**.
 
-For **"Policy type"** select **"Simple scaling"**
+## Configure Cloudwatch
 
-For Scaling Policy name, feel free to call it **`ScaleDown`**. We will now need to setup a new CloudWatch alarm for it, go ahead and select **"Create a CloudWatch alarm"**.
-## Set up Auto Scaling: Configure Cloudwatch
-
-We need to find the metric we want to alarm for first. Select **"Select Metric"**, **"Container Insights"**, followed by **"ClusterName, InstanceId, NodeName"**.  Locate `node_cpu_utilization` and press **"Select Metric".**  
+We'll use the same `node_cpu_utilization metric` as before. Select **"Select Metric"**, **"Container Insights"**, followed by **"ClusterName, InstanceId, NodeName"**.  Locate `node_cpu_utilization` and press **"Select Metric".**  
 
 ![Container Insights Results](/images/aws_select_cpu_utilization.png)
 
@@ -33,23 +29,22 @@ Let's move to **"Conditions"**:
 
 1. Leave **Static** selected.
 2. Choose **"Lower/Equal"** 
-3. For the box of threshold value, type **`30`**.
-Go ahead and press **"Next"**.
+3. For the box of threshold value, type `30`.
+4. Press **"Next"**.
 
-
-
-> **When CPU is less than or equal to 30%, the alarm will be triggered.**
+When CPU is less than or equal to 30%, the alarm will be triggered.
 
 
 ![Threshold 30](/images/aws_conditions_30.png)
 
 We now need to configure the actions that happen when the alarm gets triggered. 
 
-For **"Alarm state trigger"** leave it as **"In alarm"**. Under that, we want to go ahead and select **"Select an existing SNS topic"**. and choose the **"CPU_Increase"** we created earlier and press **"Next"**.  Now need to give it our alarm a name, let's keep it simple and name it `ScaleDown-Alarm` and press **"Next"**. Go ahead and review the steps and don't forget to press **"Create alarm"**. 
+For **Alarm state trigger** leave it as **In alarm**. Under that, we want to go ahead and select **Select an existing SNS topic**. and choose the **CPU_Increase** we created earlier and press **Next**.  Now need to give it our alarm a name, let's keep it simple and name it `ScaleDown-Alarm` and press **Next**. Go ahead and review the steps and don't forget to press **Create alarm**. 
 
-> We want our Auto Scaling Policy to be triggered when the alarm we just created goes off and we want AWS to wait 10 minutes (600 seconds) before the auto scaling policy gets applied again. 
-
-
-Switch back to the "Create scaling policy" tab we were in earlier, and press the refresh icon to locate the `ScaleDown-Alarm` CloudWatch alarm we just created. Under "Take the Action" Choose to **"Set to" "3" "capacity unit"**. Lastly, for **"seconds before allowing another scaling activity"**, make it **`600`** and press **"Create"**
+Like before, we want to wait 600 seconds (10) minutes before we allow CloudWatch to apply the policy again. Switch back to the "Create scaling policy" tab we were in earlier, and press the refresh icon to locate the `ScaleDown-Alarm` CloudWatch alarm we just created. Under "Take the Action" Choose to **Set to 3 capacity units**. Lastly, for **seconds before allowing another scaling activity**, make it `600` and press **Create**. This policy will reset our cluster size to 3 if CPU usage is low.
 
 ![AWS Create scaling policy](/images/aws_create_scaling_policy_down.png)
+
+{{% notice tip %}}
+Instead of resetting the cluster size to 3, you could also choose to decrease the number of units by 1.
+{{% /notice %}}

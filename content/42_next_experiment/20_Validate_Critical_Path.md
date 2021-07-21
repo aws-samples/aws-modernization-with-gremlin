@@ -1,44 +1,28 @@
 +++
-title = "3.2 Validate Critical Path"
+title = "7.3 Perform the Experiment"
 chapter = true
 weight = 20
 +++
 
-# 3.2 Validate Critical Path
-## Second Experiment
-The second experiment that we’ll run is around us asking ourselves **What happens to your application when a critical application has issues?**
+# Perform the Experiment
 
-
-You want to write down your Hypothesis and Abort Conditions before moving to the next step. 
-Your hypothesis should be based on what you expect to happen to your system as you unleash the chaos, and the abort conditions will cover the conditions that would cause you to halt the experiment. Feel free to reference the experiment card again if you need it. 
-
-![Experiment Card](/images/Experiment_Card.jpg)
-
-## Unleash Experiment
-We will start off by going back to [Gremlin](https://app.gremlin.com) to configure a **Blackhole** attack on one of the services in our critical path. The Gremlin Blackhole attack drops all matching network traffic which allows for us to replicate a service outage.
-
-Click on **"Attacks"** which can be found on the left navigation bar followed by **"New Attack".** 
+Now let's run the experiment. Open the [Gremlin web app](https://app.gremlin.com). Click on **Attacks** in the left navigation bar, then click **New Attack**.
 
 ![Gremlin UI New Attack](/images/gremlin_ui_create_new__blackhole_attack.png)
 
-Under **"What do you want to attack?"**,  you want to select **Containers**, followed by typing on the text to look for the tags based on out services.  We are going to look for two services, they are going to **`catalogue`** and **`catalogue-db`**
-
-When you are typing and searching for it, it will look like this:
+Under **What do you want to attack?**, select **Infrastructure**, then **Containers**. Note that we selected Containers instead of Hosts this time. We'll also use the search box to search for specific containers. Click on **Exact** on the right-hand side, then click on the search box and enter `catalogue`. You should see the following screen:
 ![Gremlin UI - Search Tags ](/images/gremlin_ui_select_container_tags.png)
 
-After you've typed both tags, go ahead and select both services it should look like this:
+Click on `name:"catalogue"` to select the container. Repeat this process for the `catalogue-db` container. Once you've selected both services, your screen should look like this:
 ![Gremlin UI Selected Tags](/images/gremlin_ui_selected_catalogue.png)
 
-You can see that the blast radius for this experiment is small and only 2 containers. 
+You can see that the blast radius for this experiment is small: just two containers. However, looks can be deceiving. If these containers are critical, then this small set of containers are holding up our entire application.
 
-Under **“Choose a Gremlin”**, select **"Network"** followed by **"Blackhole"**. 
+Under **Choose a Gremlin**, select **Network** followed by **Blackhole**. 
 ![Gremlin UI Blackhole Attack](/images/gremlin_ui_network_blackhole.png) 
 
-For the configuration, change **Length** to **`360`** seconds and leave everything as it is. 
-
+For the configuration, change **Length** to `360` seconds and leave everything as it is. This will drop all traffic across all network interfaces and ports in both directions.
 
 ![Gremlin UI Blackhole Attack](/images/gremlin_ui_blackhole_attack.png)
 
-Then click **"Unleash Gremlin"**
-
-Now let's go and observe the chaos engineering experiment we just unleashed via the user experience and Container Insights. 
+Next, click **Unleash Gremlin** to start the experiment.

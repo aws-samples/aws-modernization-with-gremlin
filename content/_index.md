@@ -1,27 +1,21 @@
 ---
 title: "AWS Modernization Workshop with Gremlin"
 chapter: true
-weight: 1
+weight: 99
 ---
 
+<<<<<<< HEAD
 # Chaos Engineering with Gremlin
+=======
+# AWS Marketplace DevOps Workshop Series Hands-on Lab with Gremlin
+>>>>>>> 8fbe5d4092dec268dc16cad2b256f034b3fd1ff9
 
 ![image](/images/gremlin_mascot.png)
 
 ### Welcome
 
-In this workshop, you will get a hands-on introduction to Chaos Engineering by assuming the role of Mystical Mysfit’s newest site reliability engineer. Mythical Mysfits is a fictitious company that started off with their famous “Hello world” product and evolved into being a world leader in the unicorn socks rental market.
-As Mystical Mysfit’s sole SRE, you’ll be responsible for keeping container-based microservices architecture up and running during Mystical Mysfit’s busiest “two days” of the year.
+This hands-on lab is part of the AWS Marketplace DevOps Workshop Series. In this lab, you will gain experience using Gremlin to deploy an application to AWS EKS. Gremlin is an enterprise Chaos Engineering SaaS solution that enables engineers to build more reliable software and systems. Gremlin provides an easy-to-use, safe, and secure enterprise service for proactively improving the reliability of cloud infrastructure and applications. By completing this lab, you'll learn how to deploy a microservices application using EKS, deploy Gremlin to Kubernetes clusters, and use Gremlin to run experiments and validate the resiliency of your deployment.
 
-On “day one,” you’ll start by setting up the infrastructure for the online store. You’ll then be tasked with creating dashboards and alerts to track the health of the system as the first orders start rolling in.
+Gremlin is available in AWS Marketplace. AWS Marketplace is a digital software catalog that makes it easy to find, try, buy, deploy, and manage software that runs on AWS. AWS Marketplace has a broad and deep selection of ISV solutions that can help you build your ideal DevOps toolchain in the cloud.
 
-Before “day two,” you’ll have the opportunity to run Chaos Engineering experiments on your environment to ensure that what you set up is working as expected. You’ll also learn how to get ahead of potential issues before the store opens again for “day two.”
-
-![image](/images/mm.png)
-
-
-You have 2 hours to ramp up and take over the infrastructure team. It might sound hard but to quote the CEO of the company: " How hard can it be to keep a system up for 2 days?! I'm not a technical guy, but I don't know what's the big deal!" 
-
-
-
-
+<a href="https://aws.amazon.com/marketplace/pp/prodview-tosyg6v5cyney" target="_blank"><img src="/images/setup/available-in-awsmp-badge.png"></a>

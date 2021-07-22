@@ -11,23 +11,23 @@ Parameters:
   ProjectName:
     Type: String
     Description: Project Name
-    Default: gremlin
+    Default: xxxxxxxx
   WebsiteBucket:
     Type: String
     Description: Website S3 bucket name
-    Default: gremlin.awsworkshop.io 
+    Default: xxxxxxxx.awsworkshop.io 
   CloudFrontDistroId:
     Type: String
     Description: CloudFront distribution ID 
-    Default: E2HKW99840ZX84
+    Default: xxxxxxxx
   GitHubRepo:
     Type: String
     Description: repo name
-    Default: aws-modernization-with-gremlin
+    Default: aws-modernization-xxxxxxx
   FullRepoURL:
     Type: String
     Description: The full url to the repo
-    Default: https://github.com/aws-samples/aws-modernization-with-gremlin.git  
+    Default: https://github.com/aws-samples/aws-modernization-xxxxxxxx.git  
   GitHubOwner:
     Type: String
     Description: GitHub owner name
@@ -108,6 +108,29 @@ Resources:
   ArtifactBucket:
     Type: AWS::S3::Bucket
     DeletionPolicy: Delete
+    Properties:
+      VersioningConfiguration:
+        Status: Enabled 
+      BucketEncryption:
+        ServerSideEncryptionConfiguration:
+          - ServerSideEncryptionByDefault:
+              SSEAlgorithm: 'AES256'
+
+  ArtifactBucketPolicy:
+    Type: AWS::S3::BucketPolicy
+    Properties:
+      Bucket: !Ref 'ArtifactBucket'
+      PolicyDocument:
+        Statement:
+        - Action: 's3:*'  
+          Effect: Deny
+          Resource: 
+            - !Join ['', ['arn:aws:s3:::', !Ref 'ArtifactBucket', /*]]
+            - !Join ['', ['arn:aws:s3:::', !Ref 'ArtifactBucket']]
+          Principal: '*'
+          Condition:
+            Bool:
+              aws:SecureTransport: false
 
   CodeBuildProject:
     Type: AWS::CodeBuild::Project
@@ -153,7 +176,7 @@ Resources:
               Configuration:
                 Owner: !Ref GitHubOwner
                 Repo: !Ref GitHubRepo
-                Branch: master
+                Branch: main
                 PollForSourceChanges: false
                 OAuthToken: '{{resolve:secretsmanager:GitHub/WorkshopOwnerToken:SecretString:OwnerToken}}'
               OutputArtifacts:

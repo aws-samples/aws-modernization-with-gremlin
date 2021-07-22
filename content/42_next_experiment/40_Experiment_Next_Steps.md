@@ -1,10 +1,11 @@
 +++
-title = "3.4 Experiment Next Steps"
+title = "7.5 Next Steps"
 chapter = true
 weight = 30
 +++
 
-# 3.4 Experiment Next Steps
+# Next Steps
+
 ### Do you see anything? 
 Maybe when you ran your experiment you realized that you completely broke your application.
 

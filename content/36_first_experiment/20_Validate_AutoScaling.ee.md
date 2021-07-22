@@ -1,0 +1,1 @@
+20_Validate_AutoScaling.md

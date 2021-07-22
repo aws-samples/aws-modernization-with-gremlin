@@ -1,18 +1,16 @@
 +++
-title = "2.5.3 AutoScaling Up Setup"
+title = "6.5.3 Finalize Your Auto Scaling Configuration"
 chapter = true
 weight = 03
 +++
 
+# Finalize Your Auto Scaling Configuration
 
-## Set up Auto Scaling: 
-
-Switch back to the "Create scaling policy" tab we were in earlier, and press the refresh icon to locate the CloudWatch alarm we just created. Under "Take the Action" Choose to **"Add" "1" "capacity unit"**. 
-Lastly, for **"seconds before allowing another scaling activity"**, make it **`600`**. 
+Switch back to the "Create scaling policy" tab we were in before creating the alarm, and select the CloudWatch alarm we just created. You might need to refresh the page if it doesn't appear automatically. Under "Take the Action", configure the drop-down lists and text boxes to **Add 1 capacity units**. 
+Lastly, for **seconds before allowing another scaling activity**, make it `600`. 
 ![AWS Create scaling policy](/images/aws_create_scaling_policy.png)
 
-> We want our Auto Scaling Policy to be triggered when the alarm we just created goes off and we want AWS to wait 10 minutes (600 seconds) before the auto scaling policy gets applied again. 
-
+This sets our Auto Scaling Policy to trigger when the alarm goes off, while also requiring 600 seconds (10 minutes) to pass before the policy can be applied again.
 
 
 

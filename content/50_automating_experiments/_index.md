@@ -1,27 +1,19 @@
 +++
-title = "Part 4: Automating Chaos Engineering"
+title = "Automate Experiments"
 chapter = true
 weight = 50
 +++
 
-# Part 4: Automating Chaos Engineering
-## What is Chaos Engineering Automation
-**Chaos Engineering Automation** is the practice of implementing Chaos Engineering Experiments in a **continuous** way to prevent **regression into past failures.**
+# Automate Experiments
+
+Running ad-hoc experiments are a great way of getting started with Chaos Engineering and testing for unknown conditions. However, much like quality assurance testing, the best way to ensure your applications and systems are reliable is by automating your experiments. Automation is the practice of performing chaos experiments in a **continuous** way to prevent **regression into past failures.**
 
 ## Why Automate?
 
-Automation of experiments reinforces that your applications  won’t be vulnerable to failures because you will have to design your applications against these failures consistently. It’s a forcing function for application developers to think about common and known failures first when building applications.
+Automating experiments helps ensure that your applications don’t become vulnerable to failure modes over time. Performing a chaos experiment validates reliability at a single point in time, but applications change. A fix implemented in an earlier version of an application might no longer work as expected in a later version. By automating chaos experiments, we can continuously check for these regressions and protect ourselves against failures. It’s also a forcing function for application developers, since any changes they make will be validated against these failure modes. It encourages developers to build applications with reliability in mind, which in turn makes failures less likely.
 
-One wants to automate experiments in pre-prod environments before automating experiments in production. 
+Ideally you should automate experiments in production, since production is a unique environment and any failures will directly affect customers. But when starting out, automate your experiments in pre-production. Once you’re comfortable automating experiments, gradually move them into production.
 
-Gremlin allows for one to implement automation various ways:
-
-+ Scheduling 
-+ API Calls 
-+ SDK Implementations 
-+ Status Checks
-+ CI/CD
-
-
+Gremlin lets you automate experiments in various ways, which we’ll cover in the next sections:
 
 {{% children showhidden="false" %}}

@@ -1,13 +1,14 @@
 +++
-title = "2.5.1 Auto Scaling"
+title = "6.5.1 Create Auto Scaling Rules"
 chapter = true
 weight = 01
 +++
 
-# 2.5.1 Auto Scaling
-## Remediation: Set up Auto Scaling
+# Create Auto Scaling Rules
 
-Go to the [AWS Console](https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#Home:) and select EC2 from Services.
+We saw that our clusters didn't scale even when we were using 80% CPU across all three nodes. To addres this, we'll configure an Auto Scaling Group (ASG) for our cluster.
+
+Go to the [AWS Console](https://console.aws.amazon.com/ec2/v2/home?region=us-west-2#Home:) and select EC2 from Services.
 
 ![AWS Auto Scaling groups](/images/aws_auto_scaling.png)
 
@@ -19,8 +20,8 @@ Each Cluster gets its own Auto Scaling Group. Go ahead and check off the one you
 
 For **"Policy type"** select **"Simple scaling"**
 
-For Scaling Policy name, feel free to call it **`ScaleUp`**.
+Enter a name for the policy, for example, `ScaleUp`.
 
 ![AWS Auto Scaling groups](/images/aws_create_scaling_policy_prework.png) 
 
-We are going to need to setup a CloudWatch Alarm, go ahead and select **"Create a CloudWatch alarm"**.
+This policy must be triggered by a CloudWatch alarm, which we'll set up in the next section. For now, click **Create a CloudWatch alarm**.

@@ -38,7 +38,7 @@ We are going to receive an email titled `AWS Notification - Subscription Confirm
 
 ![AWS Notification - Subscription Confirmation](/images/aws_notification_subscription_confirmation.png)
 
-You will then see a confimation like this:
+You will then see a confirmation like this:
 ![AWS Notification - confirmed](/images/aws_subscription_confirmed.png)
 
 

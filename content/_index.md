@@ -1,7 +1,7 @@
 ---
 title: "AWS Modernization Workshop with Gremlin"
 chapter: true
-weight: 99
+weight: 1
 ---
 
 # AWS Marketplace DevOps Workshop Series Hands-on Lab with Gremlin

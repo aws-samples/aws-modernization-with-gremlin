@@ -5,8 +5,8 @@ defaultContentLanguage = "oyo"
 title = "AWS Modernization Workshop with Gremlin"
 theme = "hugo-theme-learn"
 metaDataFormat = "yaml"
-defaultContentLanguageInSubdir= "false"
-uglyurls = "true"
+defaultContentLanguageInSubdir = false
+uglyurls = false
 enableEmoji = true
 
 [params]

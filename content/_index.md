@@ -4,11 +4,7 @@ chapter: true
 weight: 99
 ---
 
-<<<<<<< HEAD
-# Chaos Engineering with Gremlin
-=======
 # AWS Marketplace DevOps Workshop Series Hands-on Lab with Gremlin
->>>>>>> 8fbe5d4092dec268dc16cad2b256f034b3fd1ff9
 
 ![image](/images/gremlin_mascot.png)
 

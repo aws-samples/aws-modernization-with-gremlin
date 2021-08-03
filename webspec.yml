@@ -27,6 +27,7 @@ phases:
 
   build:
     commands:
+      - rm -rf public
       - echo Build Website
       - ./hugo -D -d public
       - echo Deploy Copy Website to S3 Bucket

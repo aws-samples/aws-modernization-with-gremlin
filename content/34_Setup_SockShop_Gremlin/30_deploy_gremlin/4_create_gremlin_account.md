@@ -9,13 +9,31 @@ If you already have a Gremlin account, simply [log in to your account](https://a
 {{% /notice%}}
 
 ## Create Gremlin Account
-If you do not already have a Gremlin account, [register here](https://gremlin.com/aws-2020). You'll need to provide an email address, password, Company Name, and Team Name.
+If you do not already have a Gremlin account, [open the AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-tosyg6v5cyney) and click the **Try for free** button. You may be prompted to sign in to your AWS account. After signing in, select **Free Trial**, then click **Create contract**. Note that you will not be charged after the free trial ends.
+
+![AWS Marketplace sign up](/images/setup/aws-marketplace-start-contract.png)
+
+When the popup box appears, click **Accept Contract** to confirm.
+
+![AWS Marketplace confirm](/images/setup/aws-marketplace-accept-contract.png)
+
+Now that you're subscribed, click **Setup your account** to begin setting up your Gremlin account. You will be redirected to a page requesting registration information including your name, email address, company name, and phone number.
+
+![Gremlin account registration](/images/setup/gremlin-registration.png)
 
 {{% notice tip %}}
 If another member of your company has created a Gremlin account, your company name might already be in use.
 {{% /notice%}}
 
-After you've filled it out, you will receive an email with a link to complete your registration. Go ahead and fill it out, it will look like this:
+After you've filled this out, click **Complete Registration**. You will see a success screen along with a note that you will be contacted within two business days.
+
+![Gremlin account registration complete](/images/setup/gremlin-registration-complete.png)
+
+You will receive the following email with a link to complete your registration:
+
+![Gremlin signup email](/images/setup/gremlin-email.png)
+
+Click on the link and fill out your account information. It will look like this:
 
 ![Gremlin Account](/images/gremlin_account_creation.png)
 
